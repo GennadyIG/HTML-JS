@@ -37,8 +37,12 @@ class Desktop extends ElectricalAppliance {
 
 
 const greenLamp = new DeskLamp('лампа', 'зеленая')
+greenLamp.getInfo()
 greenLamp.turnOn()
 greenLamp.getInfo()
 
 const homeDesktop = new Desktop('Домашний компьютер')
+homeDesktop.turnOn()
+homeDesktop.getInfo()
+homeDesktop.turnOff()
 homeDesktop.getInfo()
